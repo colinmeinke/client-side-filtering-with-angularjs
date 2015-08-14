@@ -53,7 +53,6 @@ gulp.task( 'start', function () {
     'ignore': [
       'dist/*',
       'node_modules/**/*',
-      'public/*.js',
     ],
     'tasks': [ 'compile' ],
   });
