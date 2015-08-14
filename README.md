@@ -7,12 +7,12 @@ The aim is to take a collection of movies, and only show the
 items where a filter makes a match on the appropriate
 property.
 
-![image](screenshot.jpg)
+![image](https://github.com/colinmeinke/client-side-filtering-with-angularjs/raw/master/screenshot.jpg)
 
 ## To view it in action:
 
 ```
-npm install client-side-filtering-with-angularjs
+git clone git@github.com:colinmeinke/client-side-filtering-with-angularjs.git .
 npm install --production
 node dist/server.js
 ```
