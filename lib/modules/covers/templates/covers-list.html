@@ -1,0 +1,13 @@
+<section class="container">
+  <ul class="list-group clearfix">
+    <li class="list-group-item pull-left"
+        ng-repeat="cover in coversList.covers">
+      <a href="{{ cover.url }}">
+        <img ng-src="{{ cover.image }}" />
+        <h3 class="list-group-item-heading">
+          <small ng-bind-html="cover.title | highlight:coversList.highlightText"></small>
+        </h3>
+      </a>
+    </li>
+  </ul>
+</section>

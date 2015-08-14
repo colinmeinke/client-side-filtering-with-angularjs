@@ -1,0 +1,23 @@
+{
+  "name": "client-side-filtering-with-angularjs",
+  "version": "0.1.0",
+  "description": "Client-side filtering with AngularJS",
+  "main": "dist/server.js",
+  "author": "Colin Meinke <hello@colinmeinke.com> (http://colinmeinke.com)",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "1.4.x",
+    "express": "4.13.x"
+  },
+  "devDependencies": {
+    "babel": "5.8.x",
+    "babel-eslint": "4.0.x",
+    "babelify": "6.1.x",
+    "browserify": "11.0.x",
+    "gulp": "3.9.x",
+    "gulp-babel": "5.2.x",
+    "gulp-eslint": "1.0.x",
+    "gulp-nodemon": "2.0.x",
+    "vinyl-source-stream": "1.1.x"
+  }
+}

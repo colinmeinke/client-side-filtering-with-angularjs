@@ -1,0 +1,24 @@
+<div class="container input-group">
+
+  <div class="input-group-btn">
+    <button type="button"
+            class="btn btn-default dropdown-toggle"
+            data-toggle="dropdown">
+      {{ filterForm.filterName }} <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li ng-repeat="( value, name ) in filterForm.filters">
+        <a href="#" ng-click="filterForm.setFilter( value )">
+          {{ name }}
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <input type="text"
+         class="form-control"
+         placeholder="search"
+         ng-model="filterForm.term"
+         ng-change="filterForm.setTerm()" />
+
+</div>

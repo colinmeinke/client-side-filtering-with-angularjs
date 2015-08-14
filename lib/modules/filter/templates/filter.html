@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="filter">
+  <head>
+    <title>Client-side filtering with AngularJS</title>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  </head>
+  <body>
+    <form name="filter"
+          ng-controller="FilterCtrl">
+
+      <filter-header></filter-header>
+      <filter-form></filter-form>
+      <hr />
+      <covers-list></covers-list>
+
+    </form>
+
+    <script src="/app.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
