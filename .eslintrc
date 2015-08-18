@@ -18,9 +18,15 @@
     }],
     "computed-property-spacing": [ 2, "always" ],
     "eol-last": 2,
+    "eqeqeq": 2,
     "indent": [ 2, 2, {
       "SwitchCase": 1
     }],
+    "key-spacing": 2,
+    "no-dupe-keys": 2,
+    "no-irregular-whitespace": 2,
+    "no-mixed-spaces-and-tabs": 2,
+    "no-multi-spaces": 2,
     "no-multiple-empty-lines": 2,
     "no-new": 0,
     "no-spaced-func": 2,
